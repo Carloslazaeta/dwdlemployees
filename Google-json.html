@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Data</title>
+    <link rel="stylesheet" href="Google-json.css">
+</head>
+<body>
+    <div class="container">
+        <h2>DWDL new aplications</h2>
+        <input type="text" id="searchBox" placeholder="Search for a name..." onkeyup="filterTable()">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="dataTableBody"></tbody>
+        </table>
+        <button id="createProfileBtn">Create Profile</button>
+    </div>
+    <script src="Google-json.js"></script>
+</body>
+</html>
